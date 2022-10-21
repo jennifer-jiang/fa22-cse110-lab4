@@ -43,3 +43,5 @@
     F) true because true maps to 1, Boolean(2) equals true which maps to 1, and 1 equals to 1
     
 15. The difference between the == and the === operators is that the == operator is an equality operator that converts operands of different types to numbers, while === is a strict equality operator that checks the equality without type conversion.
+
+17. The result is [ 2, 4, 6 ]. This is because within the for loop, we are calling the callback function doSomething with the value of the array at index 1. In the callback function, we double the value before pushing the value to newArr. We repeat this for each value in the array ([1, 2, 3]) before we return newArr, which is how we end up with the doubled values in newArr.
