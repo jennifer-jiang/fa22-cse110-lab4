@@ -19,3 +19,27 @@
 10. The value "3" is printed. This is because the variable length is declared with the const keyword and can only be accessed within the block it is defined in, which would be the entire discountPrices function. 
 
 11. The function will return [ 50, 100, 150 ]. The reasoning for the values returned follows the same reasoning as answer 4. The reason the use of the const keyword as opposed to the var keyword does not affect the return value of the function is because on line 14, where the return statement is, the variable discounted is still in the block it is defined in, which is the entire discountPrices function. The value of discounted is returned from the function normally. 
+
+12. A) student.name
+    B) student['Grad Year']
+    C) student.greeting()
+    D) student['Favorite Teacher'].name
+    E) student.courseLoad[0]
+    
+13. A) '32' because integers map to their exact string representation
+    B) 1 because '3' maps to 3
+    C) 3 because null maps to 0
+    D) '3null' because null maps to a string
+    E) 4 because true maps to 1
+    F) 0 because false and null both map to 0
+    G) '3undefined' because undefined maps to a string
+    H) NaN because of numeric conversion rules, undefined becomes NaN
+    
+14. A) true because '2' becomes a number
+    B) true because '2' and '12' become numbers
+    C) true because '2' becomes a number
+    D) false because === checks the equality without type conversion and a number is not equal to a string
+    E) false because true maps to 1 and 1 is not equal to 2
+    F) true because true maps to 1, Boolean(2) equals true which maps to 1, and 1 equals to 1
+    
+15. The difference between the == and the === operators is that the == operator is an equality operator that converts operands of different types to numbers, while === is a strict equality operator that checks the equality without type conversion.
