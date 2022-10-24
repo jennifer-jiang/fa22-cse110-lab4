@@ -36,7 +36,7 @@
     H) NaN because of numeric conversion rules, undefined becomes NaN
     
 14. A) true because '2' becomes a number
-    B) true because '2' and '12' become numbers
+    B) false because '2' and '12' are compared as strings and 1 comes before 2
     C) true because '2' becomes a number
     D) false because === checks the equality without type conversion and a number is not equal to a string
     E) false because true maps to 1 and 1 is not equal to 2
